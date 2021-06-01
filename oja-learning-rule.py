@@ -6,8 +6,13 @@
 import numpy as np
 from prettytable import PrettyTable
 
-w = np.transpose([-1,0])
-xt = [[-5,-4],[-2,0],[0,-1],[0,1],[3,2],[4,2]]
+#initial weight
+w = np.transpose([-3,0])
+
+#samples
+xt = [[1,-2],[3,0],[4,-7],[5,1],[4,2],[3,5]]
+
+#learning rate
 n=0.01
 
 printRes = []
